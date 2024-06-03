@@ -29,7 +29,7 @@ let onlineStatus = false;
 let istOnline = true;
 
 // Schreibe den Vergleichsoperator in die Variable istAngemeldet um zu prüfen ob die Person sich schon angemeldet hat.
-let istAbgemeldet = onlineStatus !== istOnline;
+let istAbgemeldet;
 
 /* ===================================================================================================
   Ü3 | Größer- und Kleiner-Operatoren

@@ -70,10 +70,10 @@ let akkuverbrauchVideoProMinute = 2;
 let videoLängeInMinuten = 6;
 
 // Berechne Akkuverbrauch pro Minute multipliziert mit der Videolänge
-let videoAkkuVerbrauch = akkuverbrauchVideoProMinute * videoLängeInMinuten;
+let videoAkkuVerbrauch;
 
 // Prüfe nun ob der akkuLaptop grösser oder gleich dem videoAkkuVerbrauch ist
-let genugAkku = akkuLaptop >= videoAkkuVerbrauch;
+let genugAkku;
 
 /* ===================================================================================================
 END of working area, please write your code above this area to avoid potential conflicts
