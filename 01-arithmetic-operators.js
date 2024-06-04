@@ -5,30 +5,30 @@
 let zahl1 = 10;
 let zahl2 = 5;
 
-// Eine Addition
+// Eine Addition (rechne zahl1 und zahl2 zusammen und weise das Ergebnis der Variable summe zu)
 let summe;
 
-// Eine Subtraktion
+// Eine Subtraktion (rechne zahl1 und zahl2 voneinander ab und weise das Ergebnis der Variable differenz zu)
 let differenz;
 
-// Eine Multiplikation
+// Eine Multiplikation (multipliziere zahl1 und zahl2 und weise das Ergebnis der Variable produkt zu)
 let produkt;
 
-// Eine Division
+// Eine Division (dividiere zahl1 durch zahl2 und weise das Ergebnis der Variable quotient zu)
 let quotient;
 
-// Ein Modulo
+// Ein Modulo (berechne den Restwert der Division von zahl1 durch zahl2 und weise das Ergebnis der Variable rest zu)
 let rest;
 
 /* ===================================================================================================
  Ü2 | Inkrement und Dekrement
 --------------------------------------------------------------------------------------------------- */
 
-// Inkrementiere die Zahl um 1
+// Inkrementiere die Zahl um 1 (Erhöhe die Zahl um 1) - Verwende den Inkrement Operator
 let inkrement = 10;
 inkrement;
 
-// Dekrementiere die Zahl um 1
+// Dekrementiere die Zahl um 1 (Verringere die Zahl um 1) - Verwende den Dekrement Operator
 let dekrement = 10;
 dekrement;
 
@@ -40,6 +40,7 @@ dekrement;
 /*
     Beschreibung:
     Der Modulo Operator (%) gibt den Restwert einer Division zurück. Verwende den Modulo Operator, um den Restwert der Division von zahlModulo1 durch zahlModulo2 zu berechnen.
+    Weise das Ergebnis der Variable restwertModulo zu.
 */
 
 let zahlModulo1 = 13;
@@ -56,10 +57,10 @@ let note2 = 5;
 let note3 = 6;
 let note4 = 5;
 
-// Summiere alle Noten
+// Summiere alle Noten und weise das Ergebnis der Variable summeNoten zu
 let summeNoten;
 
-// Berechne den Durchschnitt (Dividiere die Summe der Noten durch die Anzahl der Noten (4))
+// Berechne den Durchschnitt (Dividiere die Summe der Noten durch die Anzahl der Noten (4)) und weise das Ergebnis der Variablen durchschnitt zu
 let durchschnitt;
 
 /* ===================================================================================================
@@ -69,7 +70,7 @@ let durchschnitt;
 let strecke = 240; // in Kilometer
 let zeit = 2; // in Stunden
 
-// Berechne die Geschwindigkeit Strecke durch Zeit
+// Berechne die Geschwindigkeit Strecke durch Zeit und weise das Ergebnis der Variablen geschwindigkeit zu
 let geschwindigkeit;
 
 /* ===================================================================================================
@@ -79,7 +80,10 @@ let geschwindigkeit;
 let punkte = 150;
 let maxPunkte = 200;
 
-// Berechne die erreichte Punktzahl in Prozent, die ersten beiden Variablen dividierst du in einer Klammer und multiplizierst das Ergebnis mit 100
+/* Berechne die erreichte Punktzahl in Prozent.
+   Dividiere die erreichten Punkte durch die maximal möglichen Punkte in einer Klammer und multipliziere das Ergebnis mit 100.
+   Weiss das Ergebnis der Variablen prozent zu.
+*/
 let prozent;
 
 /* ===================================================================================================
